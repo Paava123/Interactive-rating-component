@@ -11,7 +11,7 @@ body{
      background-color: hsl(214, 20%, 23%);
     
     border-radius:50% ;
-    padding:5px;
+    padding:0.2em;
   aspect-ratio: 1/1;
   border: none;
     color:white;
@@ -30,8 +30,9 @@ body{
 
 
 .submit{
-    padding:10px;
-    margin: 0;
+     margin: 0;
+    padding:0.4em;
+   
     border:  none;
     border-radius: 15px;
 
@@ -129,7 +130,7 @@ text-align: center;
     display: none;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:50em) {
     .main-cont, .state{
         width: 75%;
 
