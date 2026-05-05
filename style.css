@@ -44,13 +44,13 @@ body{
 .main-cont{
     display: flex;
     flex-direction: column;
-    row-gap: 25px;
+    row-gap: 0.5em;
     height:75%;
     width:20%;
    
     margin: auto;
     padding: 3%;
-border-radius: 25px;
+border-radius: 0.5em;
     background-color: hsl(213, 19%, 18%);
 margin-top: 10%;
 }
@@ -60,14 +60,14 @@ margin-top: 10%;
     
  display: flex;
     flex-direction: column;
-    row-gap: 25px;
+    row-gap: 0.5em;
     height:75%;
     width:20%;
    justify-content: center;
    align-items: center;
     margin: auto;
     padding: 3%;
-border-radius: 25px;
+border-radius: 0.5em;
     background-color: hsl(213, 19%, 18%);
 margin-top: 10%;
 
@@ -76,7 +76,7 @@ margin-top: 10%;
 .how{
     padding:0;
     margin: 0;
-    margin-bottom: -5px;
+    margin-bottom: -0.2em;
     color:white;
 
 }
@@ -86,20 +86,20 @@ padding:0;
     margin: 0;
     color:hsl(217, 12%, 63%);
     font-weight: 300;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 0.4em;
+    line-height: 0.45em;
 }
 
 .star{
     background-color: hsl(214, 20%, 23%);
     color:rgb(252,118,19);
     border-radius:50% ;
-    padding:5px;
+    padding:0.2em;
    
    
     font-size: 22px;
     aspect-ratio: 1/1;
-    width:22px;
+    width:0.4em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +117,7 @@ text-align: center;
 
 .rateeeee{
     color:rgb(252,118,19);
-    padding:10px;
+    padding:0.2em;
     margin: auto;
     border: none;
     font-size: 15px;
