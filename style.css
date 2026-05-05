@@ -30,14 +30,12 @@ body{
 
 
 .submit{
+      background-color:rgb(252,118,19);
+     border:  none;
+         height:20%;
+    border-radius: 15px;
      margin: 0;
     padding:0.4em;
-   
-    border:  none;
-    border-radius: 15px;
-
-    background-color:rgb(252,118,19);
-     height:20%;
     transition: 250ms;
 }
 
