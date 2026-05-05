@@ -1,5 +1,4 @@
 
-var rate = 0; 
 
 
 function Submit(){
@@ -11,14 +10,15 @@ document.getElementById("state").classList.remove("hidden");
 
 
  function  Rate(number){
-
+    let rate = 0; 
+let arr;
 arr =  document.getElementsByClassName("orange");
 
 while(arr.length > 0){
     arr[0].classList.remove("orange");
 }
 
-document.getElementById(number).classList.add("orange");
+document.getElementById("a"+number).classList.add("orange");
 
 rate = number;
 
