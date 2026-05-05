@@ -138,7 +138,7 @@ text-align: center;
 }
 
 
-@media (prefers-reduced-motion){
+@media (prefers-reduced-motion: reduce) {
     .submit,.rating{
         transition:100s;
     }
