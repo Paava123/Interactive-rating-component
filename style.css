@@ -137,3 +137,10 @@ text-align: center;
 
 
 }
+
+
+@media (prefers-reduced-motion){
+    .submit,.rating{
+        transition:100s;
+    }
+}
