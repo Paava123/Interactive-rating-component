@@ -1,0 +1,130 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    padding:0;
+    margin: 0;
+      font-family: "Montserrat", sans-serif;
+}
+
+.rating{
+    padding:0;
+    margin: 0;
+     background-color: hsl(214, 20%, 23%);
+    
+    border-radius:50% ;
+    padding:5px;
+  aspect-ratio: 1/1;
+  border: none;
+    color:white;
+    transition: 250ms;
+}
+:hover.rating,:hover.submit{
+    background-color: white;
+    color:black;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+   column-gap: 10%;
+}
+
+
+.submit{
+    padding:10px;
+    margin: 0;
+    border:  none;
+    border-radius: 15px;
+
+    background-color:rgb(252,118,19);
+     height:20%;
+    transition: 250ms;
+}
+
+.main-cont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    height:75%;
+    width:20%;
+   
+    margin: auto;
+    padding: 3%;
+border-radius: 25px;
+    background-color: hsl(213, 19%, 18%);
+margin-top: 10%;
+}
+
+
+.state{
+    
+ display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    height:75%;
+    width:20%;
+   justify-content: center;
+   align-items: center;
+    margin: auto;
+    padding: 3%;
+border-radius: 25px;
+    background-color: hsl(213, 19%, 18%);
+margin-top: 10%;
+
+}
+
+.how{
+    padding:0;
+    margin: 0;
+    margin-bottom: -5px;
+    color:white;
+
+}
+
+.text{
+padding:0;
+    margin: 0;
+    color:hsl(217, 12%, 63%);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.star{
+    background-color: hsl(214, 20%, 23%);
+    color:rgb(252,118,19);
+    border-radius:50% ;
+    padding:5px;
+    float: left;
+   
+    font-size: 22px;
+    aspect-ratio: 1/1;
+    width:22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.orange{
+    
+    background-color:rgb(252,118,19);
+}
+
+.centralize{
+text-align: center;
+}
+
+.rateeeee{
+    color:rgb(252,118,19);
+    padding:10px;
+    margin: auto;
+    border: none;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: hsl(214, 20%, 23%);
+}
+
+
+.hidden{
+    display: none;
+}
